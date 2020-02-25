@@ -70,5 +70,5 @@ print(g)
 # Write a list comprehension that contains the square root of all the ages.
 print("Square root of ages:")
 import math
-h = [round(math.sqrt(n.age), 2) for n in humans]
+h = [math.sqrt(h.age) for h in humans]
 print(h)
